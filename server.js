@@ -1,7 +1,6 @@
 const express = require('express')
 const cors = require('cors') // for development only
 const bodyParser = require('body-parser')
-const fetch = require('node-fetch');
 
 const app = express()
 const port = 3000 // adjust port number if needed
