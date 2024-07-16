@@ -1,6 +1,7 @@
 const express = require('express')
 const cors = require('cors') // for development only
 const bodyParser = require('body-parser')
+const fetch = require('node-fetch');
 
 const app = express()
 const port = 3000 // adjust port number if needed
@@ -23,6 +24,8 @@ const apiKeys = {
 
 app.use(cors())
 app.use(bodyParser.json())
+
+app.listen('9000');
 
 app.get('/', function (req, res) {
   res.render('index', {})
