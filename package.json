@@ -2,7 +2,6 @@
   "name": "your-app-name",
   "version": "1.0.0",
   "description": "",
-  "license": "UNLICENSED",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -12,8 +11,5 @@
     "cors": "^2.8.5",
     "body-parser": "^1.19.0",
     "node-fetch": "^2.6.1"
-  },
-  "engines": {
-    "node": "20.x"
   }
 }
