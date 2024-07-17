@@ -1,0 +1,26 @@
+#campaigner-form,
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#emails {
+  height: 100px;
+  width: 280px;
+}
+
+#progressBarContainer {
+  margin-top: 1rem;
+  display: none; /* Initially hidden */
+  width: 200px;
+  height: 10px;
+  background-color: #ddd;
+}
+
+#progressBar {
+  width: 0%; /* Initial width */
+  height: 100%;
+  background-color: green; /* Progress bar color */
+}
